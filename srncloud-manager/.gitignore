@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.next/
+data/
+*.db
+*.db-journal
+.env
+.env.local
+.playwright/
+browser-data/
+coverage/
+.DS_Store

@@ -1,0 +1,22 @@
+{
+  "name": "srncloud-manager",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SRNCloud AFK Manager - Personal automation and monitoring client for SRNCloud hosting",
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspaces --if-present",
+    "dev:backend": "npm run dev --workspace backend",
+    "dev:frontend": "npm run dev --workspace frontend",
+    "build": "npm run build --workspaces --if-present",
+    "start": "npm run start --workspace backend",
+    "test": "npm run test --workspace backend",
+    "db:migrate": "npm run db:migrate --workspace backend"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
