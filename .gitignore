@@ -1,0 +1,37 @@
+# Dependencies
+node_modules
+
+# Build output
+dist
+backend/dist
+.next
+frontend/.next
+out
+frontend/out
+
+# Runtime data, secrets, sessions, databases (never commit)
+data
+backend/data
+*.db
+*.db-*
+*.db-wal
+*.db-shm
+.encryption-key
+.session-secret
+browser-profile
+**/browser-profile
+backend/user-data
+
+# Env & logs
+.env
+.env.local
+*.log
+
+# Test/coverage
+coverage
+
+# OS/editor
+.DS_Store
+playwright/.cache
+# TS incremental build info
+*.tsbuildinfo
